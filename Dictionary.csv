@@ -38,3 +38,5 @@ Pull Request,"Also known as a PR, Merge Request, MR etc. It is a request from a 
 Branch,"Branches are copies of code use to isolate development work without affecting the main branch or work being done by others. Once the work is completed and approved, it can be merged into the main branch."
 Source Control,"Source control, or Version control, is a system used to track and manage changes to code."
 Git,"An open source version control system. Popular commerical implementations of Git include GitHub and GitLab"
+Toil,"An SRE term used to describe work tied to running a production service that is manual, repetitive, and automatable. It is often the goal of SRE teams to reduce these manual tasks."
+SRE,"Site Reliability Engineering. A software engineering approach that uses tools to automate IT infrastructure tasks."
