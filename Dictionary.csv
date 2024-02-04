@@ -1,0 +1,16 @@
+﻿Word,Definition
+SDLC,Software Development LifeCycle
+Deploy,To make code changes available on an environment.
+Release,To make code changes available to the end user of an environment.
+Environment,Refers the the infrastructure that software is run on.
+Infrastructure,"The combined tools, processes, hardware, networking and platform that software is run on."
+BDD,Behaviour Driven Design
+TDD,Test Driven Design
+DDD,Domain Driven Design
+Test Pyramid,"References a type of diagram that is designed to show the different quantity of tests in layers of a pyramid. The top layer, often UI or end to end tests, having less tests than the lower layers, such as Integration Tests and Unit Tests"
+Unit Tests,Code level testing that checks the input and output of a given function or method.
+Integration tests,Testing the interfaces between software modules with an aim to expose defects that occur due to the integration of the modules
+End to end (E2E) tests,The testing of an application in full as per a live production system. The closest representation of an end user experience of the applicaiton
+E2E,Shorthand for End to End
+End to end,Normally used to describe completing process from start to finish
+Quality,"Quality is “goodness” and “correctness” (just because something is ‘correct’, it doesn't necessarily mean it's ‘good’); it's the value that a customer or user feels while using the product or service, and it is entirely unique to that customer."
