@@ -1,16 +1,18 @@
 ﻿Word,Definition
-SDLC,Software Development LifeCycle
-Deploy,To make code changes available on an environment.
-Release,To make code changes available to the end user of an environment.
+SDLC,Software Development LifeCycle - Describes the complete journey of software development from the initial idea through all stages leading to a production deployment and maintenance of the changes. It is described as a lifecycle as the process is considered cyclical in nature and is often presented in a cicular format, much like a lifecycle diagram in biology.
+Deploy,To add code changes available on an environment. In software terms, deploying code would change the version of code running on an environment. When talking about IAC (Infrastructure as Code), deploying would update the infrastructure to match that required by the new code.
+Release,To make code changes available to the end user of an environment. Releasing code is a separate, independent step from deployment, although they are fundamentally linked. Deploying code changes may make them available to an end user. However, it is possible for code changes to be deployed and not available to an end user until further steps are taken, such as enabling a feature toggle. In this case you would consider the code released only at the point the toggle was enabled.
+IAC, Infrastructure as Code. A process of managing and provisioning cloud basedn infrastructure through machine-readable definition files. IAC allows for versioning, code review, and repeatable deployments of infrastructure.
+Feature Toggle, Also known as Feature Flags, they provide a software driven way to enable or disable features. They can be a simple on/off switch, but can also be more complex and serve changes to specific traffic types or volumes.
 Environment,Refers the the infrastructure that software is run on.
 Infrastructure,"The combined tools, processes, hardware, networking and platform that software is run on."
-BDD,Behaviour Driven Design
-TDD,Test Driven Design
-DDD,Domain Driven Design
+BDD,Behaviour Driven Development. A test driven development principle that is related to TDD. BDD states for each unit of software a developer must define a test first, then implement the code to make the test pass. BDD encourages the collaboration of Business Analysts / Product owners and developers to create the specific user stories. BDD uses Gherkin like syntax for creation of user stories.
+TDD,Test Driven Development. A development practice that encourages developers to create unit tests before implementing code. TDD can help improve requirement clariity, quality of code documentation, and ensures comprehensive test coverage.
+DDD,Domain Driven Design. A software design approached that focusses on modelling software to match a domain according to imput from the domains experts.
 Test Pyramid,"References a type of diagram that is designed to show the different quantity of tests in layers of a pyramid. The top layer, often UI or end to end tests, having less tests than the lower layers, such as Integration Tests and Unit Tests"
 Unit Tests,Code level testing that checks the input and output of a given function or method.
 Integration tests,Testing the interfaces between software modules with an aim to expose defects that occur due to the integration of the modules
-End to end (E2E) tests,The testing of an application in full as per a live production system. The closest representation of an end user experience of the applicaiton
-E2E,Shorthand for End to End
-End to end,Normally used to describe completing process from start to finish
+End to end tests,The testing of an application in full as per a live production system. The closest representation of an end user experience of the applicaiton
+E2E,End to end. Normally used to describe completing process from start to finish.
 Quality,"Quality is “goodness” and “correctness” (just because something is ‘correct’, it doesn't necessarily mean it's ‘good’); it's the value that a customer or user feels while using the product or service, and it is entirely unique to that customer."
+Gherkin, Gherkin is a language used to create non-technical and human readable test cases.
